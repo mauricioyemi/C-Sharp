@@ -93,7 +93,7 @@ class Zodiac {
             astro_sign = "sagittarius"; 
         } 
               
-        Console.WriteLine(astro_sign); 
+        Console.WriteLine("You are {0}",astro_sign); 
     } 
           
       
