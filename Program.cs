@@ -7,6 +7,7 @@ namespace C__Practice
         static void Main(string[] args)
         {
             // calcular quantidade de gasolina necessária para viagem
+            // calculate how much gas you need for a trip
 
             int kilomLitro,disPercorrida,litrosComb;
             Console.WriteLine("Que distância você vai viajar?");
