@@ -9,10 +9,12 @@ class Pedido{
     static void Main(){
         
         string descricao="";
-        string valor_unitario="";
-        string quantidade="";
+        string valor_unitario=""; // declarar valor_unitario como double
+        string quantidade=""; // declarar quantidade como int
 
         List<string> pedidos = new List<string>();
+        
+        // Como criar uma lista para guardar os valores de valor_unitario?
         
         Console.Write("\nQual o seu pedido? ");
         descricao = Console.ReadLine();
@@ -20,7 +22,7 @@ class Pedido{
 
         Console.Write("\nQual o valor? ");
         valor_unitario = Console.ReadLine();
-        pedidos.Add(valor_unitario);
+        pedidos.Add(valor_unitario); 
 
         Console.Write("\nQuantidade? ");
         quantidade = Console.ReadLine();
@@ -46,8 +48,8 @@ class Pedido{
 
         foreach (object o in pedidos)
         {
-            Console.WriteLine("\n" + o);
+            Console.WriteLine("\n" + o); // Preciso melhorar a formatação da saída na tela.
         }
-
+                // Como mostrar o valor total do pedido?
     }
 }
