@@ -9,12 +9,12 @@ class ItemPedido{
 
 class Pedido{
 
-   static void Main(){
+   private static void Main(){
 
-       List<string> Pedidos = new List<string>();
+       var Pedidos = new List<object>();
        Pedidos.Add("Xis");
-       Pedidos.Add("Dez pila");
-       Pedidos.Add("Dois");
+       Pedidos.Add(20);
+       Pedidos.Add(1);
 
        foreach (var pedido in Pedidos)
        {
